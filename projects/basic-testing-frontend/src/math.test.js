@@ -13,7 +13,7 @@ it("should summarize all number values in an array", () => {
   expect(result).toBe(expectedResult);
 });
 
-it("should ield NaN if a least one invalid number is provided", () => {
+it("should yield NaN if a least one invalid number is provided", () => {
   const inputs = ["invalid", 1];
 
   const result = add(inputs);
